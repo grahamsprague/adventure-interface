@@ -1,0 +1,65 @@
+body{
+    background: rgb(51, 37, 29);
+    color:rgb(133, 117, 56);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.header{
+    width: 800px;
+    margin:20px;
+}
+
+.container{
+    width: 850px;
+}
+
+.room-image{
+    width: 800px;
+}
+
+.display{
+    width: 820px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.inventory{
+    width: 575px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.controls{
+    width: 800px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.manual-control{
+    width: 500px;
+
+}
+
+#command{
+    width: 350px;
+    background:rgb(66, 61, 39);
+    color: rgb(155, 133, 89);
+}
+
+
+
+.direction{
+    width: 175px;
+    float: right;
+    margin-top: -125px;
+}
+
+.direction-button{
+    width: 50px;
+    
+}
+
+.btn-secondary{
+    background:rgb(66, 61, 39);
+    color:rgb(133, 117, 56)
+}

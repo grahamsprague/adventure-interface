@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="main.css">
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="main.js"></script>
+
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Adventure Maze</h1>
+        </div>
+        
+
+        <div class="display">
+            <img src="img/castle_mockup.jpg" alt="" id="room-image" class="room-image" />
+            <hr />
+            <div class="" id="room_info">
+                <p id="status">Current Room: 1</p>
+            </div>
+        </div>
+        <div class="inventory">
+        </div>
+        <div class="controls">
+            <div class="manual-control">
+                <p id="legend" >N(north), S(south), E(east), W(west), U(up), D(down)</p>
+                <p id="talk-back">What would you like to do?</p>
+                <input type="text" name="command" id="command" value="" />
+                <button class="btn btn-secondary" name="go" id="go">Go</button>
+            </div>
+            <div class="direction">
+                <div class="row">
+                    <button class="btn btn-secondary direction-button " data-dir="U">U</button>
+                    <button class="btn btn-secondary direction-button " data-dir="N">N</button>
+                    <button class="btn btn-secondary direction-button disabled" data-dir=""></button>
+                </div>
+                
+                <div class="row">
+                    <button class="btn btn-secondary direction-button " data-dir="W">W</button>
+                    <button class="btn btn-secondary direction-button disabled bi bi-compass" ></button>
+                    <button class="btn btn-secondary direction-button " data-dir="E">E</button>
+                </div>
+                
+                <div class="row">
+                    <button class="btn btn-secondary direction-button " data-dir="D">D</button>
+                    <button class="btn btn-secondary direction-button " data-dir="S">S</button>
+                    <button class="btn btn-secondary direction-button disabled" data-dir=""></button>
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        
+    </div>
+   
+
+</body>
+</html>
