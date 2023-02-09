@@ -58,8 +58,8 @@ $(function(){
                 $('#room_info').html(
                     '<p>Room Name: ' + name + '</p>' +
                     '<p>Short Description: ' + short_desc + '</p>' +
-                    '<p>Long Description: ' + long_desc + '</p>' +
-                    '<p>Travel Description: ' + travel.join('-') + '</p>'
+                    '<p>Long Description: ' + long_desc + '</p>'
+                    
                 );
 
             }
