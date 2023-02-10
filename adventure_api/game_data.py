@@ -49,10 +49,18 @@ game_map = {
     '6': {
         'name': 'LOUNGE',
         'short_desc': 'YOU ARE IN THE PALACE LOUNGE',
-        'long_desc': 'YOU ARE IN THE PALACE LOUNGE. YOU HEAR A SITAR PLAYING.',
-        'travel': [0, 2, 0, 0, 0, 0, 0],
+        'long_desc': 'YOU ARE IN THE PALACE LOUNGE. YOU HEAR A SITAR PLAYING. IN THE EAST SIDE OF THE ROOM THERE IS A CHESSBOARD.',
+        'travel': [0, 2, 0, 7, 0, 0, 0],
         'bonus_points': 0,
         'image':'lounge.jpg'
+    },
+    '7': {
+        'name': 'CHESSBOARD',
+        'short_desc': 'YOU ARE LOOKING AT A CHESSBOARD',
+        'long_desc': 'YOU ARE LOOKING AT A CHESSBOARD. THE PEICES ARE LAID OUT READY TO START PLAYING. ONE OF THE PEICES LOOKS DIFFERENT FROM THE OTHERS.',
+        'travel': [0, 6, 0, 0, 0, 0, 0],
+        'bonus_points': 0,
+        'image':'chessboard.jpg'
     }
 }
 

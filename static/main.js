@@ -55,12 +55,9 @@ $(function(){
                 var image = my_json.image;
 
                 $('#room-image').attr('src', 'img/'+image);
-                $('#room_info').html(
-                    '<p>Room Name: ' + name + '</p>' +
-                    '<p>Short Description: ' + short_desc + '</p>' +
-                    '<p>Long Description: ' + long_desc + '</p>'
-                    
-                );
+                $('#room_name').html('<p>Room Name: ' + name + '</p>');
+                $('#short_desc').html('<p>Short Desc: ' + short_desc + '</p>');
+                $('#long_desc').html('<p>Long Desc: ' + long_desc + '</p>');
 
             }
         });
